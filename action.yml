@@ -1,0 +1,9 @@
+##
+name: 'TYPO3 CI Codestyle check'
+description: 'GitHub Action that checks your codestyle.'
+branding:
+  icon: check
+  color: orange
+runs:
+  using: 'docker'
+  image: 'Dockerfile'

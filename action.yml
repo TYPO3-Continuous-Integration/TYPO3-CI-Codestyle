@@ -1,5 +1,5 @@
 ##
-name: 'TYPO3 CI Codestyle check'
+name: 'TYPO3 CI PHP CS-Fixer'
 description: 'GitHub Action that checks your codestyle.'
 branding:
   icon: check

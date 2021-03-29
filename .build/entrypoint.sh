@@ -6,10 +6,10 @@ Header() {
   # Prints #
   ##########
   echo "---------------------------------------------"
-  echo "-- GitHub Actions TYPO3 Codestyle check ---"
+  echo "-- GitHub Actions TYPO3 PHP CS-Fixer ---"
   echo "---------------------------------------------"
-  echo "TYPO3 Codestyle check source code can be found at:"
-  echo " - https://github.com/TYPO3-Continuous-Integration/TYPO3-CI-Codestyle"
+  echo "TYPO3 PHP CS Fixer source code can be found at:"
+  echo " - https://github.com/TYPO3-Continuous-Integration/TYPO3-CI-PHP-CS-Fixer"
   echo "---------------------------------------------"
 }
 

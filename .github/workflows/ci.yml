@@ -1,0 +1,18 @@
+---
+name: CI
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+  schedule:
+    - cron: '15 3 * * 1'
+jobs:
+  yaml-lint:
+    name: "YAML linter"
+    runs-on: ubuntu-20.04
+    steps:
+      - name: "Checkout"
+        uses: actions/checkout@v2
+      - name: "Run YAML lint"
+        uses: TYPO3-Continuous-Integration/TYPO3-CI-YAML-Lint@v1

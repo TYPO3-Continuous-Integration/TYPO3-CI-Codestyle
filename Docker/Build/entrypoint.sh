@@ -21,7 +21,7 @@ Lint() {
   echo "---------------------------------------------"
   echo "-- Running lint... ---"
   echo "---------------------------------------------"
-  php-cs-fixer fix --config /.php_cs.php -v --dry-run --using-cache false --diff --diff-format=udiff
+  php-cs-fixer fix --config /.php_cs.php -v --dry-run --using-cache false --diff
 }
 
 #### Function Footer ###########################################################
